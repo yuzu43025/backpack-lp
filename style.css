@@ -29,18 +29,20 @@
   padding: 3rem 0 3rem 0;
 
 }
-
-.item__left__imgbox {
+.textbox {
+  width: 45vw;
+}
+.imgbox {
   width: 50vw;
 }
-.item__left__imgbox img {
+
+.item__left img {
   width: 30rem;
   height: 30rem;
   object-fit: cover;
 }
 
-.item__right__textbox {
-  width: 45vw;
+.item__right {
   margin-right: 12px;
   position: relative;
 }
@@ -49,12 +51,4 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%)
-}
-
-.point__left__textbox {
-  width: 45vw;
-}
-
-.point__right__imgbox{
-  
 }
