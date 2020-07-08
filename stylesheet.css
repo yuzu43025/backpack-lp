@@ -1,4 +1,6 @@
-
+body {
+    margin: 0;
+}
 .top {
   background-image: url(https://github.com/yuzu43025/backpack.lp/blob/master/top-image-psd.jpg?raw=true);
   background-position: center center;
@@ -22,18 +24,23 @@
 
 .flex {
   display:flex;
+  justify-content: center;
+  align-items: center;
   padding: 3rem 0 3rem 0;
   text-align: center;
+  flex-wrap: wrap;
 }
 .textbox {
-  width: 45vw;
+  flex: 1;
+  padding: 20px;
 }
 .imgbox {
-  width: 50vw;
+  flex: 1;
 }
 .imgbox img {
   width: 30rem;
   height: 30rem;
+  max-width: 375px;
   object-fit: cover;
 }
 .item {
@@ -47,7 +54,6 @@
 }
 .flex__list{
   justify-content: space-between;
-  padding: 0 10rem 0 10rem;
 }
 .list__icon img {
   width: 10rem;
