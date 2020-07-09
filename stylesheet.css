@@ -104,6 +104,6 @@ div{
 }
 @media (max-width:320px){
   .imgbox img {
-    width: 25rem;
+    width: 100vw;
 }
 }
