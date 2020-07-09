@@ -29,7 +29,7 @@ margin-top: 1rem;
 .flex {
   display:flex;
   justify-content: center;
-　align-items: center;
+  align-items: center;
   padding: 3rem 0 3rem 0;
   text-align: center;
 }
@@ -75,10 +75,6 @@ margin-top: 1rem;
   color: white;
   flex-wrap: wrap-reverse;
   margin: 0 auto;
-}
-div{
-  align-items: center;
-
 }
 .flex__list{
   justify-content: space-around;
