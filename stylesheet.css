@@ -43,8 +43,8 @@ margin-top: 1rem;
 }
 .imgbox img {
   width: 100vw;
-  height: auto;
-  max-width: 480px;
+  height: 450px;
+  max-width: 450px;
   object-fit: cover;
 }
 .textbox h2{
@@ -97,4 +97,9 @@ margin-top: 1rem;
   .point__txt {
     margin-left: 8rem;
   }
+}
+@media (max-width:320px){
+  .imgbox img {
+    width: 100vw;
+}
 }
