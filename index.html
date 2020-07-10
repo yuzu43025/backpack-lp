@@ -10,15 +10,15 @@
     <!-- CSS読み込み -->
     <link rel="stylesheet" href="stylesheet.css">
     <!-- jQuery読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="js/bootstrap.min.js"></script>
     <!-- fontawesome読み込み -->
     <script src="https://kit.fontawesome.com/67d742d450.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <header>
-
     </header>
     <div class="top">
       <h1 class="top__text top__text_opacity">
@@ -29,10 +29,10 @@
 
     <div class="item flex">
       <div class=" item__left imgbox">
-        <img src="https://github.com/yuzu43025/backpack.lp/blob/master/item.bp-psd.jpg?raw=true" alt="バックパック画像">
+        <img id="imgbox_fadein" src="https://github.com/yuzu43025/backpack.lp/blob/master/item.bp-psd.jpg?raw=true" alt="バックパック画像">
       </div>
       <div class="item__right textbox">
-        <h2 class="item__txt">「軽く、強く、もっと自由に」</h2>
+        <h2 class="item__txt headline">軽く、強く、もっと自由に</h2>
         <p class="item__txt">このバックパックは、かの有名なアウトドアメーカ「***」
           との共同開発により、テントの生地をバックバックの表面布に採用することで、
           テントの軽さ、強さ、しなやかさを兼ね備えています。もちろん丸洗いが可能。
@@ -43,14 +43,14 @@
 
     <div class="point flex">
         <div class="point__left textbox">
-          <h2 class="point__txt">「圧倒的な内容量」</h2>
+          <h2 class="point__txt headline">圧倒的な内容量</h2>
           <p class="point__txt">このバックパックは、確かな機能を備えたアウトドアバックパックでありながらも、
             コロンとしたキュートでコンパクトな見た目が特徴。フレキシブルな生地を採用することで、25Lの内容量確保を実現しました。
             ハイキングや１泊２日のキャンプにはもちろん、普段の通勤・通学までいつもあなたの活動をサポートします。
           </p>
         </div>
         <div class=" point__right imgbox">
-          <img src="https://github.com/yuzu43025/backpack.lp/blob/master/point.bp-psd.jpg?raw=true" alt="バックパック画像">
+          <img id="imgbox_fadein" src="https://github.com/yuzu43025/backpack.lp/blob/master/point.bp-psd.jpg?raw=true" alt="バックパック画像">
         </div>
     </div>
 
@@ -97,5 +97,6 @@
       <p class="contact__info"><span class="fas fa-phone-alt">電話番号：</span><span class="fas fa-envelope">メールアドレス：</span></p>
       <p class="contact__hours">受付時間：月〜金 9時30分〜18時（土日祝日を除く）</p>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
