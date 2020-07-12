@@ -1,7 +1,7 @@
 $(function(){
 $('.top__text_opacity').hide().fadeIn(4500);
   function animation(){
-      $('#imgbox_fadein').each(function(){
+      $('.imgbox_fadein').each(function(){
         //ターゲットの位置を取得
         var target = $(this).offset().top;
         //スクロール量を取得
