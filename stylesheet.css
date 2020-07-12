@@ -47,6 +47,11 @@ margin-top: 1rem;
   max-width: 450px;
   object-fit: cover;
 }
+#imgbox_fadein {
+  opacity : 0;
+    transform: translateY(20px);
+    transition: 1s;  
+}
 .textbox h2{
   position: relative;
   display: inline-block;
