@@ -19,4 +19,7 @@ $('.top__text_opacity').hide().fadeIn(4500);
     $(window).scroll(function (){
       animation();
     });
+
+// drawer.jsの初期化
+$('.drawer').drawer();
 });
