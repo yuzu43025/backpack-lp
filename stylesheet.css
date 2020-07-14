@@ -5,10 +5,10 @@ margin: 0;
   background-color: rgba(5, 5, 5, 0.6) !important;
 }
 .drawer-menu a{
-  color:rgba(189, 188, 191, 0.84) !important;
+  color:rgba(246, 244, 250, 0.84) !important;
 }
 .drawer-hamburger-icon, .drawer-hamburger-icon:after, .drawer-hamburger-icon:before {
-  background-color: rgba(189, 188, 191, 0.84) !important;
+  background-color: rgba(246, 244, 250, 0.84) !important;
 }
 .drawer-open .drawer-hamburger-icon {
     background-color: transparent !important;
